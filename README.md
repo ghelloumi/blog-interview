@@ -1,4 +1,4 @@
-# Coding test with NextJS
+# Upply Front : Coding test with NextJS
 
 ## Instructions
 
