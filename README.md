@@ -1,7 +1,5 @@
 # Coding test with NextJS
 
-This repository is used as a code base for the code test.
-
 ## Instructions
 
 * You must **fork/clone** this project and provide your GitHub url later
