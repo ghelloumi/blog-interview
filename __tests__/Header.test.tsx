@@ -4,7 +4,7 @@ import { mount } from 'enzyme'
 import toJson from 'enzyme-to-json';
 import '@testing-library/jest-dom/extend-expect';
 
-import Header from '../components/Header';
+import Header from '../components/Organisms/Header';
 
 describe('Enzyme tests', () => {
     test('should render Header according to snapshot', () => {

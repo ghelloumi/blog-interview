@@ -3,7 +3,7 @@ import React, {FunctionComponent} from 'react';
 import Layout from '../components/Layout';
 
 const Index: FunctionComponent = () => {
-  
+
   return (
     <Layout>
       <h1 data-testid="page-title">Home page</h1>
@@ -15,17 +15,15 @@ const Index: FunctionComponent = () => {
           will have to be sorted by date
         </li>
         <li>
-          It will be a plus if articles are SEO friendly (render by the server side)
+          I'll we a plus if articles are SEO friendly (render by the server side)
         </li>
-        <li>Implement a search bar to filter the articles by their title
+        <li>Implement a search bar to filter the articles by their names
         </li>
         <li>Implement a select to choose the sorting by desc or asc</li>
         <li>Add whatever you think should be added. But don't forget to tell us what and why</li>
       </ul>
-      <h2>
-        Notes
-      </h2>
-      <p>The image of each blog is served by the API. The key "src" of each post indicates the endpoint on the
+      <p>Feel free to add some styling.</p>
+      <p>Note that the image of each blog is served by the API. The key "src" of each post indicates the endpoint on the
         API</p>
       <p>Example: "src: 'mypicture.png' means that the picture source is
         https://upply-interview.herokuapp.com/images/mypicture.png</p>

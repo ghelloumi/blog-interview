@@ -4,7 +4,7 @@ import { mount } from 'enzyme'
 import toJson from 'enzyme-to-json';
 import '@testing-library/jest-dom/extend-expect';
 
-import Footer from '../components/Footer';
+import Footer from '../components/Organisms/Footer';
 
 describe('Enzyme tests', () => {
     test('should render Footer according to snapshot', () => {

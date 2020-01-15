@@ -1,8 +1,8 @@
 import React from 'react';
 import {StyledContainer, StyledContent} from './layout.styled';
 
-import Footer from './Footer'
-import Header from './Header'
+import Footer from './Organisms/Footer'
+import Header from './Organisms/Header'
 
 import GlobalStyle from './theme';
 
