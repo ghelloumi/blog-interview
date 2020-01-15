@@ -37,17 +37,12 @@ const Blog: NextPage<Props> = ({posts}) => {
         )
         : posts;
 
-    let sortedList
-
-    sortedList = [...filteredList].sort(
-        (a, b) => moment(b.date).unix() - moment(a.date).unix()
-    );
+    const sortedList = sort === 'ascending' ?
+        [...filteredList].sort((a, b) => moment(a.date).unix() - moment(b.date).unix()) :
+        [...filteredList].sort((a, b) => moment(b.date).unix() - moment(a.date).unix());
 
     const handleSortChange = (e) => {
         setSort(e.target.value);
-        sortedList = sort === 'ascending' ?
-            [...filteredList].sort((a, b) => moment(a.date).unix() - moment(b.date).unix()) :
-            [...filteredList].sort((a, b) => moment(b.date).unix() - moment(a.date).unix());
     };
 
     return (
